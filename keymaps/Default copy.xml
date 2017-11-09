@@ -1,0 +1,87 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="meta ampersand" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta left_parenthesis" />
+  </action>
+  <action id="CollapseBlock" />
+  <action id="CollapseSelection" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift meta comma" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="shift meta colon" />
+  </action>
+  <action id="Console.TableResult.Reload" />
+  <action id="Console.TableResult.SelectRow" />
+  <action id="Debug" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="meta left" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="EditorMoveToPageTop" />
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="NextParameter">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="Rerun" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Vcs.Log.Refresh" />
+  <action id="hg4idea.QRefresh" />
+</keymap>
