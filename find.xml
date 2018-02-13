@@ -26,8 +26,8 @@
       <mask>*.bla.php</mask>
       <mask>*.blad.php</mask>
       <mask>.php</mask>
-      <mask>*.blade.php</mask>
       <mask>*.php</mask>
+      <mask>*.blade.php</mask>
     </recentFileMasks>
   </component>
 </application>
