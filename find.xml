@@ -15,5 +15,6 @@
     <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.blade.php</mask>
+    <mask>@</mask>
   </component>
 </application>
