@@ -12,9 +12,9 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>action*</mask>
-    <mask>*.blade.php</mask>
     <mask>@</mask>
     <mask>*.js</mask>
     <mask>*.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
