@@ -14,7 +14,7 @@
     <mask>action*</mask>
     <mask>@</mask>
     <mask>*.php</mask>
-    <mask>*.blade.php</mask>
     <mask>*.js</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
