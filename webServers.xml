@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aa779cf0-7e03-4dc3-9a51-82122143c8d4" name="Raspberry 192.168.0.16" url="http://192.168.0.16">
+        <fileTransfer host="192.168.0.16" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
