@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="86049b13-65dd-480b-a118-48d0858a8f6a" name="Electroson Studio" url="https://www.electroson.fr">
+        <fileTransfer host="ftp.cluster017.hosting.ovh.net" port="21" rootFolder="/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
