@@ -9,6 +9,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="f47a5d39-1d0e-43ed-9e73-7fcfe45e1acd" name="Empreinte Decoration" url="http://www.empreinte-decoration.fr/">
+        <fileTransfer host="ftp.empreinte-decoration.fr" port="21" rootFolder="/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
