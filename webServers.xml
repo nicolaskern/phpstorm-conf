@@ -2,19 +2,24 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="86049b13-65dd-480b-a118-48d0858a8f6a" name="Electroson Studio" url="https://www.electroson.fr">
-        <fileTransfer host="ftp.cluster017.hosting.ovh.net" port="21" rootFolder="/www">
+        <fileTransfer rootFolder="/www" host="ftp.cluster017.hosting.ovh.net" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="f47a5d39-1d0e-43ed-9e73-7fcfe45e1acd" name="Empreinte Decoration" url="http://www.empreinte-decoration.fr/">
-        <fileTransfer host="ftp.empreinte-decoration.fr" port="21" rootFolder="/www">
+        <fileTransfer rootFolder="/www" host="ftp.empreinte-decoration.fr" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="70b4892d-29cb-4bb4-8104-13acd071c719" name="Animated Gallery" url="https://animatedgallery.fr">
+        <fileTransfer rootFolder="/var/www/html/animatedgallery" accessType="SFTP" host="vps.electroson.fr" port="22" sshConfigId="35cb059f-ca07-4b47-8152-552007747477" sshConfig="root@vps.electroson.fr:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
         </fileTransfer>
       </webServer>
     </option>

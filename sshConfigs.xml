@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="vps.electroson.fr" id="35cb059f-ca07-4b47-8152-552007747477" port="22" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</application>
